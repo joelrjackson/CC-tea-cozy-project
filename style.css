@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/** Header & Nav Bar **/
+header {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    height: 69px;
+    border-bottom: 1px seashell solid;
+    width: 100%;
+    align-items: center;
+    background-color: black;
+    margin-top: 0;
+}
+
+#logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+ul {
+    display: inline-flex;
+    list-style: none;
+    margin-right: 10px
+}
+
+li a {
+    color: seashell;
+    padding: 5px;
+}
+
+/** Mission **/
+#mission-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    background-image: url(/resources/images/img-mission-background.jpg);
+    background-position: center;
+    margin: 0 auto;
+    margin-bottom: 50px
+}
+
+#mission {
+    background-color: black;
+    padding: 5px;
+    width: 1200px;
+}
+
+/** Featured Teas **/
+#featured-teas {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+
+#teas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.tea {
+    margin: 10px;
+}
+.tea img {
+    height: 200px;
+    width: 300px;
+}
+
+.tea h4 {
+    margin-top: 10px;
+}
+
+/** Locations **/
+#locations-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-image: url(/resources/images/img-locations-background.jpg);
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+#locations-container h2 {
+    flex: 1 1 100%;
+    align-self: flex-end;
+}
+
+.location {
+    background-color: black;
+    align-self: flex-start;
+    width: 300px;
+    margin: 15px 20px;
+    line-height: 2.5;
+    padding: 10px 0px;
+}
+
+#contact {
+    height: 200px;
+    margin-top: 10px;
+}
+
+#contact h5 {
+    line-height: 3;
+}
+
+#copyright {
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
